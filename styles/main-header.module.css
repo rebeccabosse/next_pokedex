@@ -1,0 +1,9 @@
+.header {
+  background-color: red;
+  padding: 1rem;
+}
+.main {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}

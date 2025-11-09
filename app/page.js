@@ -1,11 +1,13 @@
-import styles from "./page.module.css";
-
+import MainHeader from "@/components/main-header/main-header";
+import "../styles/globals.css";
 export default function Home() {
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <h1 className={styles.title}>Welcome to My Next.js App!</h1>
-      </main>
-    </div>
+    <>
+      <MainHeader />
+      <h1 className="title">Welcome to the Pokedex</h1>
+      <div className="content">
+        <p>This is the home page of the Pokedex application.</p>
+      </div>
+    </>
   );
 }
