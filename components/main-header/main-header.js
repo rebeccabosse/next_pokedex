@@ -7,6 +7,7 @@ function MainHeader() {
       <main className={classes.main}>
         <Link href="/">
           <Image
+            className={classes.logo}
             src="/images/pokeball.svg"
             alt="Pokedex Logo"
             width={100}
